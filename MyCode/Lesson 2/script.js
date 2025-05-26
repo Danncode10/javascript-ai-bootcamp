@@ -1,4 +1,5 @@
 const jokeText = document.getElementById('joke-text');
+const jokeButton = document.getElementById('get-joke-btn'); // select the button
 
 async function fetchJoke() {
   try {
@@ -19,3 +20,6 @@ async function fetchJoke() {
 
 fetchJoke();
 console.log('Joke fetched successfully');
+
+// Add event listener to button
+jokeButton.addEventListener('click', fetchJoke); // add event listener to the button

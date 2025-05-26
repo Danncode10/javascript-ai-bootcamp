@@ -1,0 +1,31 @@
+/* Make the entire page background yellow */
+body {
+    background-color: #fff8b0; /* light yellow */
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Ensure navbar is solid black and overrides Bootstrap default */
+.navbar, {
+    background-color: #000 !important;
+}
+
+.card {
+    background-color: #fff; /* white background for cards */
+    border: 1px solid #ccc; /* light gray border for cards */
+    border-radius: 8px; /* rounded corners for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* subtle shadow for cards */
+}
+
+/* Optional: Make navbar brand and links white for better contrast */
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+/* Optional: Add hover effect to nav links */
+.navbar .nav-link:hover {
+    color: #ffd700 !important; /* gold */
+}
+

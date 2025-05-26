@@ -38,12 +38,21 @@
 
     <!-- Joke Text Card -->
         <div id="joke-container" class="card p-4 mb-3" style="max-width: 600px; min-height: 120px;">
+            <!-- Spinner Loading -->
+            <div id="spinner" class="spinner-border text-primary" role="status" style="display:none;">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+
             <!-- Joke text will appear here -->
-            <p class="mb-0" id="joke-text">Loading joke...</p>
+                <div class="card" style="width: 20rem; height: 20rem;">
+                    <div class="card-body">
+                        <p class="card-text" id="joke-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                </div>
+            </div>
         </div>
 
     <!-- Get another Joke Button -->
-        <button id="get-joke-btn" class="btn btn-primary">
+        <button id="get-joke-btn" class="btn btn-dark">
             Get Another Joke
         </button>
         </div>
