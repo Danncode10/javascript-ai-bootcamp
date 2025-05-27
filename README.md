@@ -1,75 +1,103 @@
 # JavaScript + AI Bootcamp
 
-Welcome to my learning journey!
-This is **Course 1** in my Full Stack Developer roadmap:
-JavaScript → React → React Native → Node.js
+Welcome to my learning journey!  
+This is **Course 1** in my Full Stack Developer roadmap:  
+➡️ JavaScript → React → React Native → Node.js
 
-## About This Course
+---
 
-This is a 2-week crash course that teaches the fundamentals of modern JavaScript — with the twist of using **AI tools** like ChatGPT and GitHub Copilot to speed up learning and debugging. The idea is simple: **Know the Code + Use AI**.
+## 📦 Prerequisite
+
+This course builds on **basic UI skills using Bootstrap**.  
+Make sure to complete [Course 0: Bootstrap Refresher](https://github.com/Danncode10/Bootstrap-Refresher-UI-Building-Lesson-Plan) first.
+
+---
+
+## 🧠 About This Course
+
+This is a **2-week crash course** that teaches the fundamentals of modern JavaScript — with the twist of using **AI tools** like ChatGPT and GitHub Copilot to speed up learning and debugging.
 
 Perfect for beginners like me who learn slowly but deeply, with lots of hands-on practice and clear explanations.
 
-## Course Structure
+---
 
-Week 1: JavaScript Foundations
+## 📚 Lessons Covered
 
-* Variables, Data Types, Basic Operations
-* Functions and Scope
-* Arrays and Loops
-* Objects and the DOM
+### Week 1 – JavaScript Foundations
 
-Week 2: Intermediate JS + AI Workflow
+| Lesson | Topic                              | What You Learn                                           |
+|--------|------------------------------------|----------------------------------------------------------|
+| 1️⃣     | Variables, Data Types, Operators   | Declaring variables, data types, basic operations        |
+| 2️⃣     | Functions & Scope                  | Defining functions, parameters, returns, scope rules     |
+| 3️⃣     | Arrays & Loops                     | Using `.push()`, `.pop()`, `.map()`, loops like `for`    |
+| 4️⃣     | Objects & the DOM                  | Object properties, DOM selectors, events, `.innerHTML`   |
 
-* Conditions & Events
-* Fetch API
-* Mini Project: Profile Viewer App
-* How to Use AI Effectively as a Developer
+### Week 2 – Intermediate JS + AI Workflow
 
-## What You'll Learn
+| Lesson | Topic                              | What You Learn                                           |
+|--------|------------------------------------|----------------------------------------------------------|
+| 5️⃣     | Conditions & Events                | `if`, `else`, `switch`, handling user input              |
+| 6️⃣     | Fetch API                          | Making API calls with `fetch()`, `.then()`, `.catch()`   |
+| 7️⃣     | Mini Project: Profile Viewer App   | Use DOM, Fetch, and functions to build an interactive app|
+| 8️⃣     | Using AI Effectively               | Prompting, debugging, and refactoring with AI help       |
+
+---
+
+## ✅ What You'll Learn
 
 * When to use `let`, `const`, and `var`
-* How to write and call functions (normal and arrow)
+* Writing and calling functions (normal & arrow)
 * Understanding scope in JavaScript
-* Working with arrays and loops like `.map()` and `.forEach()`
-* Manipulating web pages with the DOM
-* Making web requests with `fetch()`
-* Building interactive web pages with events
-* Using AI to write, debug, and refactor code
+* Working with arrays (`map()`, `forEach()`, etc.)
+* DOM manipulation: `document.querySelector`, `.innerHTML`
+* Handling user events and input
+* Making web requests using `fetch()`
+* Debugging and improving code using ChatGPT or GitHub Copilot
 
-## Tools Used
+---
+
+## 🛠 Tools Used
 
 * Visual Studio Code
-* ChatGPT or GitHub Copilot
 * Google Chrome DevTools
-* Online editors (CodePen, JSFiddle, or Replit)
+* ChatGPT / GitHub Copilot
+* Online editors: CodePen, JSFiddle, Replit
 
-## Mini Projects Included
+---
 
-* Profile Card
-* Calculator
-* Grocery List
-* Dynamic Web Message
-* Grade Calculator
-* Random Joke Fetcher
-* Profile Viewer Web App
+## 🧪 Mini Projects Built
 
-## Why I'm Doing This
+* ✅ Profile Card  
+* ✅ Calculator  
+* ✅ Grocery List  
+* ✅ Dynamic Web Message  
+* ✅ Grade Calculator  
+* ✅ Random Joke Fetcher  
+* ✅ Profile Viewer Web App  
 
-I'm learning slowly but seriously. This course is the foundation for my goal of becoming a **full stack developer**. After this, I will move on to learning:
+---
 
-1. React (Frontend)
-2. React Native (Mobile Apps)
-3. Node.js (Backend)
+## 💡 How I Use AI in This Project
 
-This repo tracks my progress, projects, and code experiments. If you're also learning, feel free to fork or follow along!
+* Ask ChatGPT for code snippets and explanations
+* Improve and customize AI-generated code
+* Debug errors with help from AI
+* Refactor code for clarity and simplicity
+* Learn how to write effective prompts
 
-## How I Use AI in This Project
+---
 
-* Ask ChatGPT for code snippets: “Write a JS function that…”
-* Tweak and customize AI output
-* Debug errors with AI help
-* Refactor code for readability
-* Learn to write better prompts
+## 🚀 Why I'm Doing This
 
-Let’s go step by step, and get better together.
+I'm learning slowly but seriously. This course is the foundation of my journey to become a **full stack developer**.
+
+After this, I will continue with:
+
+1. **React** (Frontend)
+2. **React Native** (Mobile)
+3. **Node.js** (Backend)
+
+This repo tracks my learning, mini projects, and progress.  
+If you're learning too, feel free to fork or follow along!
+
+Let’s get better together, one lesson at a time. 💻✨
