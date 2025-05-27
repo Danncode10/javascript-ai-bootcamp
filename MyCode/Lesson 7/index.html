@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Dark Card Centered</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            min-height: 100vh;
+            background-color: #212529;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container d-flex flex-column align-items-center justify-content-center">
+    <!-- Card Section -->
+        <div class="card mb-3" style="width: 400px; height: 380; max-width: 100%;">
+            <div class="card-body d-flex flex-column align-items-center">
+                <!-- Profile Image -->
+                <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="Profile" class="rounded-circle mb-3 border border-3 border-primary" width="100" height="100">
+                <!-- Name -->
+                <h5 class="card-title mb-1" id="r_name">John Doe</h5>
+                <!-- Email -->
+                <p class="card-text text-muted mb-3" id="r_email">john.doe@email.com</p>
+                <!-- About, Age, Location (side by side, each with label above value) -->
+                <div class="w-100 mb-3">
+                    <div class="d-flex justify-content-between text-center gap-3">
+                        <div class="flex-fill">
+                            <strong>About</strong><br>
+                            <span id="r_about_content">Web Developer</span>
+                        </div>
+                        <div class="flex-fill">
+                            <strong>Age</strong><br>
+                            <span id="r_age_content">28</span>
+                        </div>
+                        <div class="flex-fill">
+                            <strong>Location</strong><br>
+                            <span id="r_location_content">New York</span>
+                        </div>
+                    </div>
+                </div>
+                <!-- Contact and About Buttons (aligned together) -->
+                <div class="d-flex justify-content-between w-100">
+                    <a href="#" class="btn btn-outline-primary flex-fill me-2" id="r_about">About</a>
+                    <a href="mailto:john.doe@email.com" class="btn btn-outline-secondary flex-fill ms-2" id="r_contact">Contact</a>
+                </div>
+            </div>
+        </div>
+
+    <!-- Random Button -->
+        <button class="btn btn-primary mt-2" id="r_generate">Generate Random Person</button>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
