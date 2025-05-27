@@ -1,4 +1,4 @@
-## Lesson 1: Variables, Data Types, Operators**
+# Lesson 1: Variables, Data Types, Operators**
 
 ### 🔧 Basic Syntax
 
@@ -76,5 +76,116 @@ console.log(age + 5);             // Arithmetic
 console.log(age === 30);          // Strict comparison
 console.log(true && false);       // Logical AND
 ```
+
+---
+
+# Lesson 2: Conditions & Events – JavaScript + AI Bootcamp
+
+This cheat sheet covers all the essentials of **conditional logic** and **event handling** in JavaScript — with a few AI tips thrown in.
+
+---
+
+## 🔹 CONDITIONS (if, else, switch)
+
+### ✅ `if`, `else if`, `else`
+
+Use to check if something is true or false.
+
+```js
+let score = 90;
+
+if (score >= 90) {
+  console.log("A grade");
+} else if (score >= 80) {
+  console.log("B grade");
+} else {
+  console.log("Try again!");
+}
+```
+
+🧠 **AI Tip:**
+
+> Ask: *"Write a JS program that checks if a number is even or odd."*
+
+---
+
+### ✅ Comparison Operators:
+
+| Operator  | Meaning               | Example (`a = 5, b = 10`) |
+| --------- | --------------------- | ------------------------- |
+| `==`      | Equal (loose)         | `a == '5'` → ✅ true       |
+| `===`     | Equal (strict)        | `a === '5'` → ❌ false     |
+| `!=`      | Not equal             | `a != b` → ✅ true         |
+| `<` `>`   | Less/Greater          | `a < b` → ✅ true          |
+| `<=` `>=` | Less/Greater or equal |                           |
+
+---
+
+### ✅ `switch` Statement
+
+Good for checking multiple values of a single variable.
+
+```js
+let color = "blue";
+
+switch (color) {
+  case "red":
+    console.log("Stop!");
+    break;
+  case "green":
+    console.log("Go!");
+    break;
+  default:
+    console.log("Color unknown.");
+}
+```
+
+---
+
+## 🔹 EVENTS (click, input, load, etc.)
+
+### ✅ Event Listener Syntax
+
+```js
+element.addEventListener("event", function);
+```
+
+| Common Event | What It Means               |
+| ------------ | --------------------------- |
+| `click`      | User clicks something       |
+| `input`      | User types in an input box  |
+| `change`     | Value changes (e.g. select) |
+| `mouseover`  | Mouse hovers over           |
+| `load`       | Page finishes loading       |
+
+---
+
+### ✅ Example: Click a Button
+
+```js
+document.getElementById("myBtn").addEventListener("click", function() {
+  alert("Button clicked!");
+});
+```
+
+---
+
+## 💡 Best Practices:
+
+* Keep event listeners in a separate `script.js` file
+* Use meaningful IDs for HTML elements
+* Combine conditions with events for interactivity
+* Use `console.log()` to debug what’s happening
+
+---
+
+## 🤖 AI Prompts You Can Try:
+
+| Goal           | Prompt                                                         |
+| -------------- | -------------------------------------------------------------- |
+| Basic logic    | "Write a JavaScript if/else to check if a number is positive." |
+| Event help     | "How do I detect a button click in JS?"                        |
+| Debugging      | "My event listener isn't working, here's the code…"            |
+| Learn by doing | "Give me 3 exercises on conditions and events."                |
 
 ---
