@@ -87,6 +87,14 @@ Perfect for beginners like me who learn slowly but deeply, with lots of hands-on
 
 ---
 
+## 🌱 Dev Directory – Community Progress
+
+Want to practice using GitHub? Fork this repo and add your lesson code inside the [`/dev-directory`](./dev-directory) folder using your GitHub username as a folder name.
+
+📌 Follow the instructions inside [`dev-directory/README.md`](./dev-directory/README.md) to get started.
+ 
+ ---
+
 ## 🚀 Why I'm Doing This
 
 I'm learning slowly but seriously. This course is the foundation of my journey to become a **full stack developer**.
