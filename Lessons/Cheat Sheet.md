@@ -1,85 +1,61 @@
-# Lesson 1: Variables, Data Types, Operators**
+## 📝 Lesson 1 Cheat Sheet — Keywords & Functions
 
-### 🔧 Basic Syntax
-
-| Code                 | Description                                                        |
-| -------------------- | ------------------------------------------------------------------ |
-| `<script>`           | Runs JS code inside HTML                                           |
-| `console.log(value)` | Print to browser console (like `print()` in Python, `cout` in C++) |
-
----
-
-### 🧱 Variables
-
-| Code            | Description                           |
-| --------------- | ------------------------------------- |
-| `let x = 10;`   | Block-scoped, mutable variable        |
-| `const y = 20;` | Block-scoped, immutable constant      |
-| `var z = 30;`   | Function-scoped, legacy (avoid using) |
-
----
-
-### 🧪 Data Types
-
-| Code             | Description                          |
-| ---------------- | ------------------------------------ |
-| `"Hello"`        | String                               |
-| `42`, `3.14`     | Number (no int/float split)          |
-| `true`, `false`  | Boolean                              |
-| `[1, 2, 3]`      | Array (like Python list)             |
-| `{ key: value }` | Object (like Python dict or C++ map) |
-| `undefined`      | Unassigned variable                  |
-| `null`           | Empty / intentional "nothing"        |
+| **Keyword / Symbol** | **What It Does**                          |    |            |
+| -------------------- | ----------------------------------------- | -- | ---------- |
+| `<script>`           | Run JS code inside HTML                   |    |            |
+| `console.log()`      | Print output to browser console           |    |            |
+| `let`                | Declare block-scoped, changeable variable |    |            |
+| `const`              | Declare block-scoped, constant variable   |    |            |
+| `var`                | Declare function-scoped variable (avoid)  |    |            |
+| `"text"`             | String data type                          |    |            |
+| `123`, `3.14`        | Number data type (no int/float split)     |    |            |
+| `true`, `false`      | Boolean data type                         |    |            |
+| `[ ]`                | Array (list)                              |    |            |
+| `{ }`                | Object (key-value map)                    |    |            |
+| `undefined`          | Variable declared but no value assigned   |    |            |
+| `null`               | Empty or intentional “nothing” value      |    |            |
+| `arr[index]`         | Access array element                      |    |            |
+| `obj.key`            | Access object property                    |    |            |
+| `+ - * / %`          | Arithmetic operators                      |    |            |
+| `===`                | Strict equality (value + type match)      |    |            |
+| `!==`                | Strict not equal                          |    |            |
+| `==`, `!=`           | Loose equality (type coercion, avoid)     |    |            |
+| `&&`                 | Logical AND                               |    |            |
+| \`                   |                                           | \` | Logical OR |
+| `!`                  | Logical NOT                               |    |            |
 
 ---
 
-### 🔍 Accessing Data
+# Lesson 2 - Functions & Scope
 
-| Code         | Description                                         |
-| ------------ | --------------------------------------------------- |
-| `arr[0]`     | Access array element                                |
-| `obj.key`    | Access object property                              |
-| `obj["key"]` | Alternate object property access (like Python dict) |
-
----
-
-### ➕ Operators
-
-| Symbol                  | Description                              |    |            |
-| ----------------------- | ---------------------------------------- | -- | ---------- |
-| `+`, `-`, `*`, `/`, `%` | Arithmetic                               |    |            |
-| `===`                   | Strict equal (value **and** type match)  |    |            |
-| `!==`                   | Strict not equal                         |    |            |
-| `==`, `!=`              | Loose comparison (type coercion — avoid) |    |            |
-| `&&`                    | Logical AND                              |    |            |
-| \`                      |                                          | \` | Logical OR |
-| `!`                     | Logical NOT                              |    |            |
+| **Keyword**         | **What It Does**                                                |
+| ------------------- | --------------------------------------------------------------- |
+| `function`          | Defines a reusable block of code                                |
+| `return`            | Sends a value back from a function                              |
+| `console.log`       | Prints to the browser console                                   |
+| `()`                | Calls (runs) a function                                         |
+| `=>`                | Creates an arrow function                                       |
+| `let` / `const`     | Declares variables (block-scoped)                               |
+| `var`               | Declares variable (function-scoped – avoid using)               |
+| `if / else`         | Makes decisions (conditions)                                    |
+| `===`               | Checks equality (strict)                                        |
+| `{} (curly braces)` | Groups code blocks (like in functions)                          |
+| `() (parentheses)`  | Wrap parameters or conditions                                   |
+| `Scope`             | Controls where variables can be used (inside/outside functions) |
 
 ---
 
-### 🧪 Examples (Quick Reminders)
+Quick and easy for reference. Want an even **emoji-style visual version**? Just ask!
 
-```js
-let name = "Alex";
-const age = 25;
-let skills = ["HTML", "CSS", "JS"];
 
-let person = {
-  name: "Alex",
-  age: 25,
-  skills: skills
-};
 
-console.log(person.name);         // Access object property
-console.log(skills[1]);           // Access array element
-console.log(age + 5);             // Arithmetic
-console.log(age === 30);          // Strict comparison
-console.log(true && false);       // Logical AND
-```
 
----
 
-# Lesson 2: Conditions & Events – JavaScript + AI Bootcamp
+
+
+
+
+# Lesson UNKNOWN: Conditions & Events – JavaScript + AI Bootcamp
 
 This cheat sheet covers all the essentials of **conditional logic** and **event handling** in JavaScript — with a few AI tips thrown in.
 
