@@ -67,6 +67,15 @@ OR if it's one line:
 const add = (a, b) => a + b;
 ```
 
+#### If you know Python:
+Arrow functions ≈ Python’s lambda but can be multi-line with {} and explicit return.
+
+| Arrow Function Syntax | Meaning                                    |
+| --------------------- | ------------------------------------------ |
+| `() => { ... }`       | No parameters                              |
+| `x => { ... }`        | One parameter (parentheses optional)       |
+| `(x, y) => { ... }`   | Multiple parameters (parentheses required) |
+
 ---
 
 ## 🌍 3. What is Scope?
