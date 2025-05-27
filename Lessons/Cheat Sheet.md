@@ -188,4 +188,74 @@ document.getElementById("myBtn").addEventListener("click", function() {
 | Debugging      | "My event listener isn't working, here's the code…"            |
 | Learn by doing | "Give me 3 exercises on conditions and events."                |
 
+### 🧾 JavaScript Cheat Sheet: `fetch()` API
+
+> 📚 Week 2 – JavaScript + AI Bootcamp
+> Topic: **Fetch API** – Get data from another website (API)
+
+---
+
+### 🚀 What is `fetch()`?
+
+> A JavaScript function that **asks another server for data** (like jokes, users, or weather) and brings it back to your site.
+
+---
+
+### 🧠 Why use it?
+
+| Without fetch   | With fetch                      |
+| --------------- | ------------------------------- |
+| Static web page | Live, dynamic content from APIs |
+
+---
+
+### 📦 What does it fetch?
+
+Usually JSON like:
+
+```json
+{
+  "name": "Alice",
+  "hobby": "Coding"
+}
+```
+
+---
+
+### 🛠️ Fetch Flow (no code)
+
+1. Ask an API for data
+2. Wait for response
+3. Turn response into usable data
+4. Show the data on the page
+
+---
+
+### 🧪 Examples of Public APIs:
+
+| API              | What It Returns   |
+| ---------------- | ----------------- |
+| Chuck Norris API | Random joke       |
+| Random User API  | Fake user profile |
+| Cat Fact API     | Fun cat facts     |
+
+---
+
+### 💡 Remember:
+
+| Term       | Meaning                        |
+| ---------- | ------------------------------ |
+| `fetch()`  | Make the request               |
+| `.then()`  | Do something with the result   |
+| `.catch()` | Handle errors                  |
+| `JSON`     | Data format you'll usually get |
+
+---
+
+### 🤖 AI Tips:
+
+* “Write a fetch request to get a joke.”
+* “Why is my fetch code not working?”
+* “Turn this fetch code into async/await.”
+
 ---
