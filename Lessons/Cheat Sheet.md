@@ -45,7 +45,50 @@
 
 ---
 
-Quick and easy for reference. Want an even **emoji-style visual version**? Just ask!
+## 📝 Lesson 3 - Arrays & Loops
+
+| **Keyword / Method** | **What It Does**                               |
+| -------------------- | ---------------------------------------------- |
+| `[]`                 | Creates an array                               |
+| `.push()`            | Adds item to end of array                      |
+| `.pop()`             | Removes last item from array                   |
+| `.map()`             | Transforms all items, returns **new** array    |
+| `.forEach()`         | Loops through items, doesn’t return anything   |
+| `for`                | Classic loop with index                        |
+| `while`              | Loops while condition is true                  |
+| `for...of`           | Loops directly over array items (cleanest way) |
+
+---
+
+## 📝 Lesson 4 - Objects & DOM
+
+| **Keyword / Method**       | **What It Does**                               |
+| -------------------------- | ---------------------------------------------- |
+| `{}`                       | Creates an object                              |
+| `obj.key` / `obj["key"]`   | Access object properties                       |
+| `document.querySelector()` | Selects a DOM element                          |
+| `.innerHTML`               | Gets/sets HTML content of an element           |
+| `.addEventListener()`      | Adds event listener (like "click")             |
+| `event.target`             | Refers to the element that triggered the event |
+
+---
+
+## 📝 Lesson 5 - Conditions & Events
+
+| **Keyword / Symbol**  | **What It Does**                               |
+| --------------------- | ---------------------------------------------- |
+| `if / else if / else` | Makes decisions based on conditions            |
+| `switch`              | Checks specific values (like menu options)     |
+| `===`                 | Strict comparison (type + value)               |
+| `prompt()`            | Gets user input (popup in browser)             |
+| `input.value`         | Gets value from a form input                   |
+| `parseInt()`          | Converts string to number                      |
+| `addEventListener()`  | Runs code on user actions (click, input, etc.) |
+
+---
+
+Let me know if you want this in printable PDF or need flashcards style for review!
+
 
 
 
